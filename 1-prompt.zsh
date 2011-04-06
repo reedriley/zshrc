@@ -5,12 +5,8 @@ if [ -d "/var/lib/gems/1.8/bin" ] ; then
 fi
 
 # put macports in path
-if [ -d "/opt/local/bin" ]; then
-    PATH="$PATH:/opt/local/bin"
-fi
-
-if [ -d "/opt/local/man" ]; then
-    MANPATH="$MANPATH:/opt/local/man"
+if [ -d "/usr/local/bin" ]; then
+    PATH="/usr/local/bin:$PATH"
 fi
 
 # set PATH so it includes user's private bin if it exists
