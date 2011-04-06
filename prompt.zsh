@@ -1,4 +1,5 @@
 #!/bin/zsh
+# Based off of "Phil's ZSH Prompt": http://aperiodic.net/phil/prompt/
 function precmd {
 
 local TERMWIDTH
