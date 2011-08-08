@@ -5,7 +5,7 @@ if [ -d "/var/lib/gems/1.8/bin" ] ; then
 fi
 
 # put macports in path
-if [ -d "/usr/local/bin" ]; then
+if [ -d "/usr/local/bin" ] ; then
     PATH="/usr/local/bin:$PATH"
 fi
 
